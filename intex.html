@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="avatar" class="rounded-circle" width="150" height="150" srcset="">
+        <p class="lead">Eu sou Rhayanne</p>
+        <h1>Estudante do 7º Colégio da polícia Militar </h1>
+        <p>Sou estudante do 7º ano do Colégio da Polícia Militar do Paraná. Este portfólio tem como finalidade apresentar o registro das leituras realizadas, contemplando diferentes obras literárias. Por meio deste material, busco evidenciar o desenvolvimento do hábito de leitura, a ampliação do repertório cultural e a capacidade de análise e reflexão a partir dos textos estudados.</p>
+        <div>
+            <p class="badge bg-secondary">Criativa</p>
+            <p class="badge bg-secondary">Conhecimento Literario</p>
+            <p class="badge bg-secondary">Versatil</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus Livros</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/vidas-secas.png" class="card-img-top" alt="secas">
+                    <div class="card-body">
+                        <h5 class="card-title">Vidas Secas</h5>
+                        <p class="card-text">O livro conta a história de uma família de retirantes nordestinos , Fabiano, Sinhá Vitória, os dois filhos e a cachorra Baleia, que luta para sobreviver à seca, à fome e às dificuldades da vida no sertão.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja mais sobre o livro</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/alice.png" class="card-img-top" alt="ali">
+                    <div class="card-body">
+                        <h5 class="card-title">Alice no país das maravilhas </h5>
+                        <p class="card-text">A história mostra Alice, uma menina curiosa, que cai numa toca de coelho e vai parar em um mundo mágico e estranho.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja mais sobre o livro</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/magico-de-oz.png" class="card-img-top" alt="oz">
+                    <div class="card-body">
+                        <h5 class="card-title">Mágico de Oz</h5>
+                        <p class="card-text">A menina Dorothy é levada por um tornado para a terra mágica de Oz</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja mais sobre o livro</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Vidas Secas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p> Lá, ela encontra personagens marcantes como o Coelho Branco, o Chapeleiro Maluco, a Rainha de Copas e outros, vivendo várias aventuras cheias de absurdos e fantasia.
+É considerado um livro muito bom porque mistura imaginação, humor e críticas sutis à sociedade, encantando tanto crianças quanto adultos.</p>
+                    <p>Eu achei uma leitura suave e maravilhosa.</p>
+                   </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Alice no país das maravilhas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p> Lá, ela encontra personagens marcantes como o Coelho Branco, o Chapeleiro Maluco, a Rainha de Copas e outros, vivendo várias aventuras cheias de absurdos e fantasia.
+É considerado um livro muito bom porque mistura imaginação, humor e críticas sutis à sociedade, encantando tanto crianças quanto adultos.</p>
+                    <p>Eu achei uma leitura suave e maravilhosa.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Mágico de Oz</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Junto com o Espantalho, o Homem de Lata e o Leão Covarde, cada um em busca de algo que deseja. No fim, descobrem que a verdadeira força já estava dentro deles.
+É considerado um livro muito bom porque traz uma aventura encantadora, com lições sobre amizade, coragem e autoconfiança.</p>
+                    <p>É uma leitura fluida simples e encantadora.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="#">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
